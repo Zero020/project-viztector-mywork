@@ -1,0 +1,6 @@
+import json
+from collections import OrderedDict
+
+file_data["type"]
+file_data["axis_component"]
+file_data["keyPoint"]

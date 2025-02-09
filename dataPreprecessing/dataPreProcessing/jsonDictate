@@ -1,0 +1,38 @@
+// JSON 파일을 불러오기
+fetch('data.json')
+    .then(response => response.json())
+    .then(data => {
+        // 데이터 불러오기
+        const chartType = data.type;
+        const labels = data.labels;
+        const values = data.values;
+        const colors = data.color.map(color => `rgb(${color[0]}, ${color[1]}, ${color[2]})`);
+
+        // Chart.js 설정
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: chartType,
+            data: {
+    
+                labels: labels,
+                datasets: [{
+                    label: 'Distortion Detected!',
+                    data: values,
+                    backgroundColor: colors,
+                    borderColor: colors,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    })
+    .catch(error => {
+        console.error('Error fetching JSON data:', error);
+    });
