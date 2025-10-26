@@ -6,10 +6,16 @@
 3. 크롤링
 4. 이전 데이터셋의 전처리
 
+---
+
 ### 📄 Publication
 
 Title: Development of a Data Visualization Distortion Detection and Correction System using a Keypoint-based Object Detection Model
+
 Journal: Journal of the Korean Institute of Information Technology (KIIT), Vol. 23, No. 1, pp. 177-190, Jan 2025
+
 Role: 3rd Author (최영 / Young Choi)
+
 Status: Published
+
 [논문 바로가기](https://www.ki-it.com/_PR/view/?aidx=43812&bidx=3952)
