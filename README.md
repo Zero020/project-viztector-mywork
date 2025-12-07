@@ -17,7 +17,27 @@
 
 <br>
 
- ## My task
+## Teck-Stack
+- MobileNetV2: 각 1500개씩 이루어진 그래프와 그 외 사진들
+- ChartReader: 약 11만개의 그래프 데이터로 이루어진 EC400K
+- Azure OCR: 그래프 이미지 내 글자 인식
+- Algorithm: 그래프 왜곡 탐지 및 교정
+- Data Preprocessing:  MicrosoftOCR
+- Chrome Extension: Visual studio Code , 소켓통신 서버
+- Model: Jypyter , Google Colab
+- Communicationm&Task Share : Canvas, Notion
+- Total Project Result : Github
+
+<br>
+
+## Team
+  
+- 7명
+  ** 기획은 2024.04부터 개발까지 함께 진행한 프로젝트입니다.
+
+<br>
+
+## My task
  
  1. 크롤링
  2. 파이 그래프, 끊긴 물결 막대 그래프의 교정 알고리즘 시도
